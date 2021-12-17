@@ -22,9 +22,12 @@ export default {
   box-sizing: border-box;
   color: white;
   font-size: 20px;
+  margin:0;
+  padding: 0;
+  letter-spacing: 1px;
 }
 #app {
-  background-color: rgb(95, 95, 187);
+  background-color: #ccc;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,7 +40,8 @@ export default {
   
 }
 .card-imc{  
-  border: 1px solid;
+  background-color: rgb(116, 116, 182);
+  box-shadow: 8px 8px 2px rgb(88, 88, 136);
   width: 350px;
   border-radius: 10px;
   padding: 20px;
@@ -76,5 +80,6 @@ input::placeholder{
 }
 p{
   text-align: left;
+  margin-top: 20px;
 }
 </style>
