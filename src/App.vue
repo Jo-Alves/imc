@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div class="card-imc">
-      <div class="row"><input placeholder="Altura" maxlength="10" autofocus/></div>
-      <div class="row"><input placeholder="Massa" maxlength="10"/></div>
+      <div class="row"><input placeholder="Massa" maxlength="10" autofocus/></div>
+      <div class="row"><input placeholder="Altura" maxlength="10" /></div>
       <button class="calc">Calcular</button>
       <p><b>IMC: </b></p>
       <p><b>OBS: </b></p>
